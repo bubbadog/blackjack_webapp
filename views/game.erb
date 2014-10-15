@@ -6,18 +6,20 @@
     <div class="alert alert-success"><%=@winner%></div>
   <% end %>
 
-  <div class='well'>
-    <h2>Blackjack!</h2>
+  <div class='well' id="table_surface">
+    <div id="welcome_player">
+      <h2>Blackjack!</h2>
 
-      <p>Welcome, <%= session[:player_name] %>!</p>
+        <p>Welcome, <%= session[:player_name] %>!</p>
 
-    <% if @play_again %>
-      <p>
-        <strong>Play again?</strong>
-        <a href="/bet" class="btn btn-primary">Yes</a>
-        <a href="/game_over" class="btn">No</a>
-      </p>
-    <% end %>
+      <% if @play_again %>
+        <p>
+          <strong>Play again?</strong>
+          <a href="/bet" class="btn btn-primary">Yes</a>
+          <a href="/game_over" class="btn">No</a>
+        </p>
+      <% end %>
+    </div>
 
     <div class='well'>
       <h4>Dealer's cards: </h4>

@@ -1,3 +1,16 @@
+
+div#welcome_player {
+  color: #FFF5EE;
+}
+
+div.well.well{
+  background-color: #F5DEB3;
+}
+
+div#table_surface {
+  background: url("/images/background/suited-poker-table-felt-400x300.jpg");
+}
+
 form#hit_form {
   float: left;
   margin-right: 10px;
