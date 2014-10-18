@@ -10,7 +10,7 @@ use Rack::Session::Cookie, :key => 'rack.session',
 
 BLACKJACK_AMOUNT = 21
 DEALER_MIN_HIT = 17
-INITIAL_PLAYER_AMOUNT = 500
+INITIAL_PLAYER_AMOUNT = 1000
 
 helpers do
   def calculate_total(cards)
